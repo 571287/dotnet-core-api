@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: autodeployAN
-  namespace: namespace-workflow-1714637076981
+  name: autodeployNA
+  namespace: namespace-workflow-1715068242241
 spec:
   type: LoadBalancer
   selector:
-    app: autodeployAN
+    app: autodeployNA
   ports:
     - protocol: TCP
       port: 5000
